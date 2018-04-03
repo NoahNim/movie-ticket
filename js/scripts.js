@@ -11,7 +11,7 @@ function Ticket(name, movie, time, age) {
 Ticket.prototype.price = function() {
     if ((this.age === "Senior" && this.time === "Matinee")) {
       moviePrice -= 6;
-    } else if (this.age === "Student" || this.time === "Afternoon" || this.movie === "Arthouse" || this.movie === "secondRun") {
+    } else if (this.age === "Student" || this.time === "Afternoon" || this.movie === "Arthouse" || this.movie === "Second Run") {
       moviePrice -= 2;
     } else if (this.age === "Senior" || this.time === "Matinee") {
       moviePrice -= 4;
@@ -54,9 +54,8 @@ $(document).ready(function( ) {
 
   });
 //allow the user to clear result and refresh form
-  $("button#refresh").click(function(event) {
-    event.preventDefault()
-    $(".results").remove();
+  $("button#refresh").click(function() {
+    $(".results").hide();
     $("#movieGroup").trigger('reset');
     });
 
