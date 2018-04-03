@@ -1,0 +1,13 @@
+.results {
+  display: none;
+}
+#subHead {
+  font-style: italic;
+}
+form {
+  max-width: 30%;
+  margin-left: 20px;
+}
+input {
+  margin-bottom: 15px;
+}
