@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="display-2"><em>Movie Tickets</em></h1>
+      <h1 class="display-2"><em>Movie <br>Tickets//</em></h1>
       <br>
       <form id="movieGroup">
         <legend id="subHead"class="display-5">Complete form to receive pricing information:</legend>
@@ -18,26 +18,26 @@
         <input type="text" class="form-control" id="nameInput" placeholder="Enter name:">
         <div class="form-group">
           <select class="new-movie form-control">
-            <option value="openMovie">Select a movie</option>
-            <option value="blockbuster">First Run</option>
-            <option value="artHouse">Art House</option>
-            <option value="secondRun">Second Run</option>
+            <option value="Open">Select a movie</option>
+            <option value="First Run">First Run</option>
+            <option value="Arthouse">Art House</option>
+            <option value="Second Run">Second Run</option>
           </select>
         </div>
         <div class="form-group">
           <select class="new-time form-control">
-            <option value="openTime">Select a time</option>
-            <option value="matinee">Matinee</option>
-            <option value="afternoon">Afternoon</option>
-            <option value="evening">Evening</option>
+            <option value="Open Time">Select a time</option>
+            <option value="Matinee">Matinee</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
           </select>
         </div>
         <div class="form-group">
           <select class="new-age form-control">
-            <option value="opeAage">Select an age range</option>
-            <option value="student">Student</option>
-            <option value="adult">Adult</option>
-            <option value="senior">Senior</option>
+            <option value="Open Age">Select an age range</option>
+            <option value="Student">Student</option>
+            <option value="Adult">Adult</option>
+            <option value="Senior">Senior</option>
           </select>
         </div>
         <button type="submit" class="btn btn-info" id="submitBtn">Submit</button>
@@ -45,7 +45,7 @@
       </form>
 
       <div class="results">
-        <p>Your ticket is as follows: <strong><span id="price"></span></strong>.</p>
+        <p><span id="name"></span>, your ticket is as follows: <span id="price"></span>.</p>
       </div>
 
     </div>

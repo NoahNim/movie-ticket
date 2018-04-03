@@ -1,7 +1,14 @@
 .results {
   display: none;
+  margin-top: 15px;
+}
+p.results {
+  font-size: 14pt;
 }
 #subHead {
+  font-style: italic;
+}
+#name {
   font-style: italic;
 }
 form {
